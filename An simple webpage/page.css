@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 20px;
+  border: 5px solid #333;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: #e67e22;
+}
+fieldset {
+  margin: 20px auto;
+  padding: 15px;
+  border: 3px solid #555;
+  width: 80%;
+  background-color: rgba(255,255,255,0.85); 
+  text-align: center;
+}
+legend {
+  font-weight: bold;
+  color: #2c3e50;
+}
+.center-img {
+  display: block;
+  margin: 10px auto;
+  border: 3px dashed #666;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.center-img:hover {
+  transform: scale(1.1);
+  filter: brightness(120%);
+  border-color: #e67e22;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6 {
+  background: url("D:/App/vs code/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+.p1::first-letter { font-weight: bold; font-size: 2rem; color: #e67e22; }
+.p2::first-letter { font-weight: bold; font-size: 2rem; color: #e74c3c; }
+.p3::first-letter { font-weight: bold; font-size: 2rem; color: #27ae60; }
+.p4::first-letter { font-weight: bold; font-size: 2rem; color: #8e44ad; }
+.p5::first-letter { font-weight: bold; font-size: 2rem; color: #d35400; }
+p {
+  line-height: 1.6;    
+  margin-bottom: 15px;   
+}
+.p1 { font-family: "Georgia", serif; }
+.p2 { font-family: "Courier New", monospace; }
+.p3 { font-family: "Comic Sans MS", cursive; }
+.p4 { font-family: "Verdana", sans-serif; background-color: #f0e6ff; }
+.p5 { font-family: "Trebuchet MS", sans-serif; font-size: 18px; }
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 70%;
+  border: 3px solid #333;
+}
+table, th, td {
+  border: 1px solid #333;
+  padding: 10px;
+}
+th {
+  background-color: #ffcc00;
+}
+td {
+  background-color: #fffbe6;
+}
+.center-link {
+  text-align: center;
+  margin: 20px 0;
+}
+.center-link a {
+  display: inline-block;
+  padding: 10px 15px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  background-color: #ffeb99;
+}
+.center-link a:hover {
+  background-color: #ffd633;
+}
+.nav-links {
+  text-align: center;  
+  margin-top: 40px;
+}
+.nav-links h2 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+.nav-links a {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 15px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  background-color: #ffeb99;
+}
+.nav-links a:hover {
+  background-color: #ffd633;
+}
